@@ -1,7 +1,5 @@
 # PAFS
 
-PAFS: Privacy-Aware Face Swapping with Traceable Identity Reconstruction
-
 Place paired face images and matching binary face-region masks in `data/{train,val,test}/{images|masks}`, put `netG_batch_800000.pth` (final Stage-1 weights) and `NoiseLayer256.pth` in `pretrained_weights/`, `arcface_checkpoint.tar` in `arcface_model/`, and train in two phases—run `train_Stage1.py` or skip straight to `train_Stage2.py` using the Stage-1 weights.
 
 ```
